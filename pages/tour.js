@@ -166,7 +166,7 @@ const TourDetailPage = ({ url, previewData }) => {
         {isPreview || (
           <div className={styles.startBtn}>
             <KonyButton
-              title="START"
+              title="START."
               type="blue"
               onClick={(e) => sendPostMessage(e)}
             />
